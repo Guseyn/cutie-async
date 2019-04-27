@@ -31,7 +31,7 @@ const {
 ```
 
 ## Collections
--------------------------------
+------------------------------
 
 ## Concatenated(collection, iteratee)
 
@@ -70,7 +70,7 @@ Represents array or object that was mapped by `mapper` from `collection`. `mappe
 The opposite of [filter](#filtered).
 
 ## Utils
--------------------------------
+------------------------------
 
 ## Delayed(result, time)
 
