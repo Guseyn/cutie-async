@@ -31,6 +31,7 @@
     "@cuties/fs": "^1.2.1",
     "@cuties/is": "^1.1.0",
     "@cuties/json": "^1.1.0",
+    "@cuties/object": "^1.1.4",
     "@cuties/wall": "^1.1.0",
     "test-executor": "^1.2.0"
   },
