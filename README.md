@@ -31,9 +31,8 @@ const {
 ```
 
 ## Collections
-------------------------------
 
-## Concatenated(collection, iteratee)
+### `Concatenated(collection, iteratee)`
 
 Applies `iteratee` to each item in `collection`, concatenating the results.
 
@@ -41,7 +40,7 @@ Applies `iteratee` to each item in `collection`, concatenating the results.
 * `collection`: a collection(an array) to iterate over
 * `iteratee`: a function to apply to each item in `collection`. It must return some value or a composition of async objects that represents some value.
 
-## Filtered(collection, filter)
+### `Filtered(collection, filter)`
 
 Filters `collection` by `filter` function that returns boolean expression or async object that represents some boolean expression for each item.
 
@@ -49,7 +48,7 @@ Filters `collection` by `filter` function that returns boolean expression or asy
 * `collection`: a collection(an array) to filter
 * `filter`: a function to filter `collection`
 
-## GroupedBy(collection, key)
+### `GroupedBy(collection, key)`
 
 Groups values from `collections` by `key`.
 
@@ -57,7 +56,7 @@ Groups values from `collections` by `key`.
 * `collection`: a collection(an array) to group by
 * `key`: a key that `collection` is grouped by
 
-## Mapped(collection, mapper)
+### `Mapped(collection, mapper)`
 
 Represents array or object that was mapped by `mapper` from `collection`. `mapper` can return async object that precesses each item of `collection`.
 
@@ -65,17 +64,16 @@ Represents array or object that was mapped by `mapper` from `collection`. `mappe
 * `collection`: a collection(an array or object) to be mapped
 * `mapper`: a function for mapping
 
-## Rejected(collection, filter)
+### `Rejected(collection, filter)`
 
 The opposite of [filter](#filtered).
 
 ## Utils
-------------------------------
 
-## Delayed(result, time)
+### `Delayed(result, time)`
 
 Represents some `result` that can be used after some specified `time`. It's a wrapper around `setTimeout`
 
-## Logged(...objs)
+### `Logged(...objs)`
 
 Represents `objs` that have been printed to console.
