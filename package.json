@@ -1,0 +1,45 @@
+{
+  "name": "@cuties/async",
+  "version": "1.0.0",
+  "description": "Cutie extension for manipulating collections, such as arrays and objects, for controlling the flow through a script, and utility stuff.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test",
+    "build": "node build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Guseyn/cutie-async.git"
+  },
+  "keywords": [
+    "cutie",
+    "async",
+    "tree"
+  ],
+  "author": "guseyn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Guseyn/cutie-async/issues"
+  },
+  "homepage": "https://github.com/Guseyn/cutie-async#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@cuties/assert": "^1.2.0",
+    "@cuties/cutie": "^1.7.0",
+    "@cuties/fs": "^1.2.1",
+    "@cuties/is": "^1.1.0",
+    "@cuties/json": "^1.1.0",
+    "@cuties/wall": "^1.1.0",
+    "test-executor": "^1.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
