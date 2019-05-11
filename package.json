@@ -1,6 +1,6 @@
 {
   "name": "@cuties/async",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cutie extension for manipulating collections, such as arrays and objects, for controlling the flow through a script, and utility stuff.",
   "main": "index.js",
   "scripts": {
